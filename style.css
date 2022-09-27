@@ -1,0 +1,452 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Bai Jamjuree', sans-serif;
+    
+}
+   
+
+section{
+    
+   height: 100%;
+   width: 100%;
+   padding-left: 50px;
+ padding: 0 60px 0 60px;
+   
+}
+
+body{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+button:hover{
+      opacity: 0.72;
+      cursor:grabbing;
+}
+    
+
+.section-head{
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin-top: 100px;
+     margin-bottom: 50px 
+
+}
+.logo{
+    margin: 10px;
+}
+.section-head-txt{
+    text-align: center;
+    margin: 20px;
+}
+.section-head-txt h1{
+    margin: 10px;
+    font-size: 18px
+    color
+}
+.section-head-txt p{
+ 
+    font-weight: 400;
+    padding: 0 300px 0 300px;
+}
+h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    font-weight: 600;
+}
+h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 16px;
+    font-weight: 600;
+}
+p{
+    color:hsl(201, 11%, 66%) ;
+}
+.section-head-btn{
+    margin: 10px;
+
+}
+button{
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: 400;
+    margin: 2px;
+
+}
+.btn-teal{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+.btn-blue{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+.snippets-img img{
+    width: 100%;
+    height: auto;
+
+}
+
+.section-snippets-txt{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.section-snippets-txt h1{
+    margin-bottom: 10px;
+}
+.section-snippets-txt p {
+    padding: 0 300px 0 300px;
+}
+.section-snippets-body{
+    display: flex;
+   
+}
+.snippets-list{
+    padding: 20px;
+
+}
+.snippets-list li{
+    margin-bottom:40px ;
+    list-style: none;
+    margin-left: 30px;
+}
+.snippets-list li p {
+    padding-right: 50px;
+}
+.section-clipboard{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-clipboard img{
+    margin-top: 30px;
+}
+.section-clipboard p{
+    padding: 0 300px 0 300px;
+    text-align: center;
+}
+
+.section-workflow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workflow-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.workflow-list-card{
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+
+
+
+.partners{
+    margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+
+}
+.partners img{
+
+    
+   margin-left: 30px;
+    margin-right: 30px;
+}
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.clipboard h1{
+    margin-bottom: 10px;
+}
+.clipboard p {
+    padding: 0 300px 0 300px;
+    text-align: center;
+}
+.clipboard button{
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #F5F6F8;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+footer li {
+    list-style: none;
+    margin: 10px;
+}
+footer .logo{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+footer .left{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .left .list-1{
+    margin-top:40px ;
+    margin-left: 50px;
+}
+
+footer .left .list-2{
+    margin-top:40px ;
+    margin-left: 50px;
+}
+footer .left .list-3{
+    margin-top:40px ;
+    margin-left: 50px;
+}
+footer .right{
+    padding: 20px;
+    margin-top: 50px;
+}
+.attribution{
+    font-size: 18px;
+    font-weight: 400;
+    background-color:#F5F6F8 ;
+    color: black;
+}
+
+/* mobile */
+
+@media (max-width: 700px) {
+    section{
+    
+        height: 100%;
+        width: 100%;
+     
+      padding: 0 10px 0 10px;
+        
+     }
+     
+     body{
+        background-image: url("images/bg-header-mobile.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+       
+
+     }
+         
+     
+     .section-head-txt h1{
+         margin: 10px;
+         font-size: 24px;
+         padding: 0 90px 0 90px;
+     }
+
+     .section-head-txt p{
+      
+         font-weight: 400;
+         padding: 0 70px 0 70px;
+     }
+    
+     .section-head-btn {
+        display: flex;
+        flex-direction: column;
+     
+     }
+
+     button{
+         padding: 15px 50px;
+         border-radius: 20px;
+         border: 0;
+         font-weight: 400;
+         margin: 10px;
+
+     
+     }
+    
+     .snippets-img img{
+         width: 100%;
+         
+     
+     }
+     h1{
+        font-size: 24px;
+     }
+     
+     .section-snippets-txt h1{
+        padding: 0 80px 0 80px;
+     }
+     .section-snippets-txt p {
+         padding: 0 80px 0 80px;
+     }
+     .section-snippets-body{
+         display: flex;
+         flex-direction: column;
+        
+     }
+     .snippets-list{
+         margin-top: 30px;
+         text-align: center;
+         padding: 0 70px 0 70px;
+     
+     }
+     h2{
+        font-size: 18px;
+     }
+     .snippets-list li{
+         margin-bottom:40px ;
+         list-style: none;
+         margin-left: 30px;
+     }
+     .snippets-list li p {
+         padding-right: 0;
+     }
+     .section-clipboard{
+         margin-top: 60px;
+     
+     }
+     .section-clipboard img{
+         margin-top: 30px;
+         width: 100%;
+         height: auto;
+     }
+     .section-clipboard p{
+         padding: 0 90px 0 90px;
+         text-align: center;
+     }
+     .section-clipboard h1{
+        padding: 0 90px 0 90px;
+        text-align: center;
+     }
+     
+     .section-workflow{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .section-workflow h1{
+        padding: 0 90px 0 90px;
+        text-align: center;
+     }
+     .section-workflow p{
+        padding: 0 90px 0 90px;
+        text-align: center;
+     }
+     .workflow-list {
+         margin-top: 50px;
+         display: flex;
+        flex-direction: column;
+     }
+     .workflow-list-card{
+         text-align: center;
+         padding: 0;
+         margin-top: 30px;
+     }
+     .workflow-list-card h2,p,img{
+        margin-top: 10px;
+     }
+     
+     
+     
+     .partners{
+         margin-top: 100px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 100px;
+     
+     }
+     .partners img{
+     margin: 30px;
+     }
+    
+     .clipboard h1{
+         margin-bottom: 10px;
+         padding: 0 100px 0 100px;
+         text-align: center;
+     }
+     .clipboard p {
+        padding: 0 90px 0 90px;
+         text-align: center;
+
+     }
+     .clipboard button{
+         
+
+     }
+     .clipboard-btn{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+     }
+     
+     footer{
+        
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+         margin-top: 80px;
+         text-align: center;
+         justify-content: center;
+     }
+   
+     footer .logo{
+         margin-left: 0;
+         margin-top: 50px;
+     }
+     footer .left{
+         display: flex;
+         flex-direction: column;
+         
+     }
+     footer .left .list-1{
+         margin-top:0 ;
+         margin-left: 0;
+     }
+     
+     footer .left .list-2{
+         margin-top:0 ;
+         margin-left: 0;
+     }
+     footer .left .list-3{
+         margin-top:0 ;
+         margin-left: 0;
+     }
+     footer .right{
+         padding: 20px;
+         margin-top: 20px;
+     }
+     .right img{
+        padding: 10px;
+     }
+     .attribution{
+         font-size: 18px;
+         font-weight: 400;
+         background-color:hsl(201, 11%, 66%) ;
+         color: black;
+     }
+
+    
+}
